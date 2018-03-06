@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@mipmap/bg"
+    android:layout_height="match_parent"
+    tools:context="com.example.krima.chanakynititingujarati.Activities.ContactUs">
+
+    <LinearLayout
+        android:background="@mipmap/actionbar"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/tBar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+            <TextView
+                android:textSize="20dp"
+                android:textStyle="normal"
+                android:textColor="@android:color/white"
+                android:gravity="center"
+                android:text="ચાણક્ય નિતી"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </android.support.v7.widget.Toolbar>
+        <View
+            android:background="@color/Android_main"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:src="@drawable/varni_icon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:gravity=""
+                android:text="Android Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:paddingLeft="10dp"
+                android:textColor="@android:color/black"
+                android:textStyle="italic"
+                android:text="Chanakya Niti Gujarati"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:gravity=""
+                android:text="Application Version"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:paddingLeft="10dp"
+                android:textColor="@android:color/black"
+                android:text="1.0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:gravity=""
+                android:text="Contact us"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:paddingLeft="10dp"
+                android:textColor="@android:color/black"
+                android:text="info@ivarni.com"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

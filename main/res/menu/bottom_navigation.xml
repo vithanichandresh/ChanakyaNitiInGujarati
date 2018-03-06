@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<item
+        android:checked="false"
+		android:id="@+id/action_item1"
+		android:icon="@drawable/previus"
+        android:orderInCategory="1"
+		android:title="previous"/>
+
+	<item
+        android:orderInCategory="2"
+		android:id="@+id/action_item2"
+		android:icon="@drawable/textsize"
+		android:title="text size"/>
+
+	<item
+        android:checked="true"
+        android:orderInCategory="3"
+		android:id="@+id/action_item3"
+		android:icon="@drawable/addtofavorite"
+		android:title="favorite"/>
+
+	<item
+        android:orderInCategory="4"
+		android:id="@+id/action_item4"
+		android:icon="@drawable/play"
+		android:title="scroll"/>
+
+	<item
+        android:orderInCategory="5"
+		android:id="@+id/action_item5"
+		android:icon="@drawable/next"
+		android:title="next"/>
+
+</menu>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/bg"
+    tools:context="com.example.krima.chanakynititingujarati.Activities.Chanakya_Vishe">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/actionbar">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/tBar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@android:color/transparent"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+            <TextView
+                android:id="@+id/appName"
+                android:textSize="20dp"
+                android:textStyle="normal"
+                android:textColor="@android:color/white"
+                android:gravity="center"
+                android:text="ચાણક્ય વિશે"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </android.support.v7.widget.Toolbar>
+        <View
+            android:background="@color/Android_main"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ListView
+            android:backgroundTint="#ffff"
+            android:background="@android:color/transparent"
+            android:id="@+id/listViewInVishe"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/card_view"
+        android:gravity="center"
+        android:weightSum="4"
+        android:background="@mipmap/list"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="center">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:id="@+id/txtChanakyaVishe"
+                android:textColor="@android:color/black"
+                android:hint="1. chanakya"
+                android:textSize="20dp"
+                android:textColorHint="@android:color/black"
+                android:layout_weight="3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+    </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
